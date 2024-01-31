@@ -1,0 +1,372 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+html,body{
+  scroll-behavior:smooth;
+}
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#header{
+   height:100%;
+   text-align:center;
+    color:black;
+     background: #fdd4b5;
+     width: 100%;
+     padding;
+     font-size: 18px;
+     color: #5f84a8;
+     border: 1px #e7daca solid;
+     border-radius: 5px;
+     margin: 0px 0px 7px 0px;
+     box-shadow:5px 5px 10px gray;
+     background: -webkit-linear-gradient(#886600, #CC9999);
+     background: -o-linear-gradient(#886600, #CC9999);
+     background: -moz-linear-gradient( #886600, #CC9999);
+     background: linear-gradient( #886600, #CC9999);
+
+}
+
+body {
+    height:100%;
+    background-color: rgba(255, 255, 255, 255);
+    background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    line-height: 1;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color:#000000;
+}
+*{
+  padding:0;
+  margin:0;
+}
+div{
+  font-family: Arial;
+  font-weight: 1em;
+  color: #777777;
+  font-size: 20pt;
+  line-height: 1.75em;
+  }
+  table{width: 100%;
+  border: #000000 5px;}
+  th{
+    height: 50px;
+    vertical-align: bottom;
+    border: #000000 5px
+
+  }
+  .button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: auto;
+  width: 20%;
+  height:100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+h4{
+font-family:Impact;
+color:#FFFFFF
+}
+
+/*dolby*/
+#About_US{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#Whats_new{
+  height:100%;
+  margin:0;
+  padding:0;
+
+}
+#dolby{
+  background: -webkit-linear-gradient( #700000, #000000);
+  background: -o-linear-gradient( #700000, #000000);
+  background: -moz-linear-gradient( #700000, #000000);
+  background: linear-gradient( #700000, #000000);
+  padding;
+}
+
+  #intro_dolby_vedio{
+    position:relative;
+    background:#00000;
+    left:0px;
+    bottom:30px;
+  }
+/*Seats*/
+#seat-verona{
+  background-image: url(../../media/Verona-Twin.png);
+  height:100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+background-attachment: fixed;
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}
+#photo_of_first_class{
+            height: 100%;
+            min-height: 500px;
+            position:  relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+    text-align: center;
+        background: rgb(255,255,255，0.5);
+        color: 		#00DDAA;
+}
+
+#seat-538{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-image: url(../../media/538.jpg);
+  height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+
+text-align: center;
+color: red;
+}
+#photo_of_standard_seats{
+  height: 100%;
+  min-height: 500px;
+            position:  relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            background-color: rgb(255,255,255，0.5);
+            color:		#00DDAA;
+}
+
+/*prices*/
+#Prices_Section{
+            width: auto;
+            height: auto;
+            position:  relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            background: -webkit-linear-gradient( #700000, #000000);
+            background: -o-linear-gradient( #700000, #000000);
+            background: -moz-linear-gradient( #700000, #000000);
+            background: linear-gradient( #700000, #000000);
+}
+tr,td{
+  font-family:Arial;
+  color:#FFFFFF
+}
+/*Now Showing*/
+#Now_showing_section{
+  background-color: #FFFFBB;
+}
+#FirstTwo{
+  width:100%;
+height:510px;
+}
+#SecondTwo{
+  width:100%;
+height:510px;
+}
+table{
+  border-style: double solid;
+}
+#Avengers_End_game{
+  position:relative;
+  float: left;
+  width: 49.5%;
+  height: 100%;
+  border-style: double solid;
+  border: 0px;
+  background: -webkit-linear-gradient( #000000, #404040);
+  background: -o-linear-gradient( #000000, #404040);
+  background: -moz-linear-gradient(#000000, #404040);
+  background: linear-gradient( #000000, #404040);
+}
+#Avengers_Photo{
+  width: 50%;
+  height: 90%;
+}
+#End_game_Description{
+  position:absolute;
+  width: 50%;
+  height: 90%;
+  top:10px;
+  right:20px;
+   font-size: 25px;
+   color:white;
+   border-style: double solid;
+ }
+  #Top_End_Wedding{
+    position:relative;
+    float: right;
+    width: 49.5%;
+    height: 100%;
+    border-style: double solid;
+    border: 0px;
+    background: -webkit-linear-gradient( #000000, #404040);
+    background: -o-linear-gradient( #000000, #404040);
+    background: -moz-linear-gradient(#000000, #404040);
+    background: linear-gradient( #000000, #404040);
+  }
+  #Top_End_Wedding_Photo{
+    size:300px;
+    position: absolute;
+    right:10px;
+  }
+  #Top_End_Wedding_Description{
+    position:absolute;
+    top:10px;
+    left: 20px;
+    width: 50%;
+    height: 90%;
+    font-size: 25px;
+    color:white;
+      border-style: double solid;
+  }
+    #Dumbo{
+      position: relative;
+      float: left;
+      width: 49.5%;
+      height: 100%;
+      border-style: double solid;
+      border: 0px;
+      background: -webkit-linear-gradient( #000000, #404040);
+      background: -o-linear-gradient( #000000, #404040);
+      background: -moz-linear-gradient(#000000, #404040);
+      background: linear-gradient( #000000, #404040);
+    }
+    #Dumbo_Photo{
+      size:300px;
+      position: absolute;
+      left: 0px;
+    }
+    #Dumbo_Description{
+      position: absolute;
+      top:10px;
+      right:20px;
+       font-size: 25px;
+       color:white;
+       width: 50%;
+       height: 90%;
+       border-style: double solid;
+    }
+      #The_Happy_Prince{
+        position:relative;
+        float: right;
+        width: 49.5%;
+        height: 100%;
+        border: 0px;
+        border-style: double solid;
+        background: -webkit-linear-gradient( #000000, #404040);
+        background: -o-linear-gradient( #000000, #404040);
+        background: -moz-linear-gradient(#000000, #404040);
+        background: linear-gradient( #000000, #404040);
+      }
+      #The_Happy_Prince_Photo{
+        size:300px;
+        position: absolute;
+        right: 0px;
+      }
+      #The_Happy_Prince_Description{
+        position: absolute;
+        left:20px;
+        top:10px;
+        bottom: 10px;
+         font-size: 25px;
+         color:white;
+         width: 50%;
+         height: 90%;
+         border-style: double solid;
+      }
+/*Booking*/
+#Synopsis_Section{
+  border:black 0px solid; background: #800000;
+}
+   #Synopsis_description{
+     width: 50%;height: 500px;float: left;border:#000000 0px solid; background: black;
+   }
+   #Synopsis_Vedio{
+     width: 50%;height: 500px;float: right;border:#000000 0px solid;background: black;
+   }
+   #booking{
+     width: 100%;
+     height: 100%;
+   }
+
+
+   p1{
+     text-decoration: underline;
+   }
+   /*dolby*/
+   #About_US{
+     height: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   #Whats_new{
+     height:100%;
+     margin:0;
+     padding:0;
+
+   }
+   #dolby{
+     background: -webkit-linear-gradient( #700000, #000000);
+     background: -o-linear-gradient( #700000, #000000);
+     background: -moz-linear-gradient( #700000, #000000);
+     background: linear-gradient( #700000, #000000);
+     padding;
+   }
+
+     #intro_dolby_vedio{
+       position:relative;
+       background:#00000;
+       left:0px;
+       bottom:30px;
+     }
